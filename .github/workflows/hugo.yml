@@ -26,16 +26,6 @@ jobs:
           && sudo dpkg -i ${{ runner.temp }}/hugo.deb
       - name: Checkout
         uses: actions/checkout@v5
-      - name: Cache example images
-        id: cache-images
-        uses: actions/cache@v4
-        with:
-          path: ./exampleSite/content
-          key: images-${{ hashFiles('exampleSite/content/**') }}
-      - name: Download example images
-        if: steps.cache-images.outputs.cache-hit != 'true'
-        working-directory: ./exampleSite
-        run: ./pull-images.sh
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
