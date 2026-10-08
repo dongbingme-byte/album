@@ -1,5 +1,5 @@
 ---
-title: Imprint
+title: 版权声明
 rss_ignore: true
 layout: prose
 menu:
@@ -7,4 +7,4 @@ menu:
     weight: 1
 ---
 
-(Put your imprint here)
+（在这里填写你的版权与联系方式等信息）

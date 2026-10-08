@@ -1,4 +1,4 @@
 ---
-title: Animals
-description: Categories can also have custom titles and descriptions. The description of the Animals category lives in `content/categories/animals/_index.md`.
+title: 动物
+description: 分类也可以有自定义标题和描述。动物分类的描述位于 `content/categories/animals/_index.md`。
 ---

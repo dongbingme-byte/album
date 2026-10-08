@@ -1,19 +1,19 @@
-copyright = "© Your Name"
-defaultContentLanguage = "en"
+copyright = "© 我的相册"
+defaultContentLanguage = "zh"
 disableKinds = ["taxonomy"]
 enableRobotsTXT = true
-languageCode = "en"
-timeZone = "Europe/Berlin"
+languageCode = "zh-CN"
+timeZone = "Asia/Shanghai"
 timeout = "120s"
-title = "Gallery"
+title = "我的相册"
 
 [params]
   defaultTheme = "dark"
-  description = "Example site for hugo-theme-gallery"
-  title = "My Gallery"
+  description = "基于 hugo-theme-gallery 的个人相册站"
+  title = "我的相册"
   [params.author]
     email = "user@example.com"
-    name = "Your Name"
+    name = "你的名字"
   [params.socialIcons]
     facebook = "https://www.facebook.com/"
     instagram = "https://www.instagram.com/"

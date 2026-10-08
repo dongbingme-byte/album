@@ -1,7 +1,7 @@
 ---
-description: Fashion and Beauty are a powerful form of self-expression. This category documents style through inspiring shots of street fashion, skincare products, avant-garde editorial photographs, and more.
+description: 时尚与美妆是表达自我的强大方式。这里收录街头时尚、护肤产品、前卫时尚摄影等灵感激发的照片。
 menus: "main"
-title: Fashion & Beauty
+title: 时尚与美妆
 weight: 2
 categories: ["beauty", "fashion"]
 params:

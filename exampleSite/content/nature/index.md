@@ -1,7 +1,7 @@
 ---
-description: Through photography, the beauty of Mother Nature can be frozen in time. This category celebrates the magic of our planet and beyond — from the immensity of the great outdoors, to miraculous moments in your own backyard.
+description: 摄影能让大自然之美定格在瞬间。这里记录了这个星球内外的自然奇迹——从广袤的户外天地，到自家后院的动人时刻。
 menus: "main"
-title: Nature
+title: 自然
 categories: ["nature"]
 weight: 3
 params:

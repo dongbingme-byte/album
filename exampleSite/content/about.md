@@ -1,10 +1,10 @@
 ---
 layout: prose
 rss_ignore: true
-title: About
+title: 关于
 menu:
   main:
     weight: 90
 ---
 
-This is a demonstration site for the Hugo Gallery theme.
+这是基于 Hugo Gallery 主题的演示站点。

@@ -1,6 +1,6 @@
 ---
 date: 2023-01-12
-title: Dogs
+title: 狗
 categories: ["animals", "nature"]
 resources:
   - src: milli-2l0CWTpcChI-unsplash.jpg
@@ -8,4 +8,4 @@ resources:
       cover: true
 ---
 
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+狗是人类忠实的朋友，这里收录了一些可爱的狗狗照片。
