@@ -26,6 +26,15 @@ jobs:
           && sudo dpkg -i ${{ runner.temp }}/hugo.deb
       - name: Checkout
         uses: actions/checkout@v5
+      - name: Install rclone
+        run: sudo apt-get update && sudo apt-get install -y rclone
+      - name: Sync images from Cloudflare R2
+        env:
+          R2_ENDPOINT: ${{ secrets.R2_ENDPOINT }}
+          R2_BUCKET: ${{ secrets.R2_BUCKET }}
+          R2_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
+          R2_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+        run: ./scripts/sync-images.sh
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
